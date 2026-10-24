@@ -1,0 +1,65 @@
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 40px;
+}
+
+#kartu-utama {
+    width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 2px solid #cccccc;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+}
+
+h1, h3 {
+    line-height: 1.5;
+}
+
+h1 {
+    color: #0a3d62;
+    font-size: 28px;
+    text-transform: capitalize;
+}
+
+.jurusan {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#kartu-utama p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    color: rgb(80, 80, 80);
+}
+
+.deskripsi {
+    text-align: left;
+}
+
+.keahlian span {
+    display: inline-block;
+    background-color: #e3f2fd;
+    color: #1976d2;
+    padding: 5px 12px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.tombol {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #1976d2;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
